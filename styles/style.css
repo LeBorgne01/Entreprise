@@ -47,11 +47,32 @@
 	padding: 0;
 }
 
-<<<<<<< HEAD
+
 /**HEADER**//
 header{
 
-	background: #f9f8f7;
+	background-color: #073277;
+
+
+}
+
+#conteneur{
+
+	background-color: #073277;
+	color: white;
+	height: 75px;
+	text-align: center;
+
+
+
+}
+
+
+
+#conteneur a {
+ text-decoration: none; color: white; 
+ margin: 5px;
+
 
 }
 
@@ -60,6 +81,7 @@ nav ul li{
 	text-decoration: none;
 	display: inline-block;
 	text-transform: uppercase;
+	font-family: 'Permanant Marker',cursive;
 }
 
 /*end header*/
@@ -77,5 +99,4 @@ body {
 
 }
 
-=======
->>>>>>> 41c3751537f8620e65e12f6a01ce8e2ac8dd8ab1
+
