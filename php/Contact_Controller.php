@@ -15,30 +15,15 @@ if(!empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['email']) 
 
 	$to = "dorian.bonnamy@etu.univ-lyon1.fr";
 
-	ini_set( 'display_errors', 1 );
+	/*ini_set( 'display_errors', 1 );
  
-    error_reporting( E_ALL );
- 
-    /*$from = "test@votredomaine.com";
- 
-	
+    error_reporting( E_ALL ); 
 
-    $to = "adressedestinataire";
- 
-    $subject = "Vérification PHP mail";
- 
-    $message = "PHP mail marche";
- 
-    $headers = "From:" . $from;
- 
-    mail($to,$subject,$message, $headers);*/
- 
-    
+    mail($to,$object,$message,"From" . $email);*/
 
-    mail($to,$object,$message,"From" . $email);
-
-	$_SESSION['Send'] = true;
-	header('Location: Contact.php');
+	$_SESSION['Send']=true;
+	echo $_SESSION['Send'];
+	//header('Location: Contact.php');
 
 }
 
