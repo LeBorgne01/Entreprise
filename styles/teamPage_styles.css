@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #84a8ff;
 }
 
 article{
@@ -10,11 +11,21 @@ article{
 article section{
     display: inline-block;
     width: 33%;
-    background-color: red;
+    background-color: #f9f8f7;
     text-align: center;
+    border: solid 1px #cbcac9;
 }
 
 article section img{
+    margin-top: 5px;
     max-width: 50%;
+    background-color: #f9f8f7;
+}
 
+article section h2{
+    font-family: 'Permanent Marker';
+}
+
+article section p{
+    font-family: 'Podkova', cursive;
 }
