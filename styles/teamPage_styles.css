@@ -1,25 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #84a8ff;
+}
+
+body{
+    background-image: url('../pictures/fond.png');
 }
 
 article{
     display: block;
+
 }
 
 article section{
     display: inline-block;
     width: 33%;
-    background-color: #f9f8f7;
+    background-color: transparent;
     text-align: center;
     border: solid 1px #cbcac9;
+    border-radius: 10px;
 }
 
 article section img{
     margin-top: 5px;
     max-width: 50%;
-    background-color: #f9f8f7;
+    border-radius: 5px;
+
 }
 
 article section h2{
