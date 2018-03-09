@@ -12,6 +12,10 @@ article{
 
 }
 
+article h1{
+    margin: 10px;
+}
+
 article section{
     display: inline-block;
     width: 33%;
