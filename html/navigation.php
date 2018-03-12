@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="../styles/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <title></title>
-</head>
-<!-- Navigation -->
 
-<body>
-
-    <header>
         <div id="conteneur">
             <div id="logo">
 
@@ -24,17 +13,17 @@
                         <a href="">Project</a>
                     </li>
                     <li>
-                        <a href="../html/teamPage.html">Team</a>
+                        <a href="../html/teamPage.php">Team</a>
                     </li>
                     <li>
-                        <a href="../php/contact.php">Contact</a>
+                        <a href="../php/var_session.php">Contact</a>
                     </li>
                 </ul>
             </nav>
+
+            <div>
+                <button id="btn_french" onclick="">Français</button>
+                <button id="btn_english" onclick="">English</button>
+            </div>
         </div>
-    </header>
-    <!-- end Navigation -->
 
-</body>
-
-</html>

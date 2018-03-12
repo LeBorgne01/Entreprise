@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <?php include('navigation.php'); ?>
+    <?php include('../html/navigation.php'); ?>
     <table class="Contour_page">
         <tr>
             <td>
@@ -27,7 +27,7 @@
                 <p>Prénom : </br><input type="text" name="prenom" /></p>
                 <p>E-Mail : </br><input type="text" name="email" /></p>
                 <p>Object : </br><input type="text" name="object" /></p>
-                <p>Message :</br> <input type="text" name="message" /></p>
+                <p>Message :</br> <textarea type="text" name="message"></textarea></p>
 
                 <input type="submit" value="Envoyer">
 
