@@ -8,7 +8,7 @@
                 <a href="../index.php">Home</a>
             </li>
             <li>
-                <a href="">Project</a>
+                <a href="../html/projects.php">Project</a>
             </li>
             <li>
                 <a href="../html/teamPage.php">Team</a>

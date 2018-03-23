@@ -99,4 +99,18 @@ body {
 
 }
 
+section{
+	display: block;
+}
+
+.projectScreen {
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+}
+
+.projectScreen img{
+	max-width: 70%;
+}
+
 
